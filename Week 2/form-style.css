@@ -1,0 +1,64 @@
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-container{
+    width: 550px;
+    background-color: rgb(72, 74, 100);
+    color: rgb(223, 238, 255);
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    border-radius: 20px;
+}
+.mother-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain{
+    padding: 50px;
+}
+
+.formatting{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#option{
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#submit{
+    width: 125px;
+    height: 40px;
+    background-color: rgb(62, 142, 233);
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
